@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('assets/arkaplan.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-card {
+  background: rgba(255,255,255,0.9);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.logo {
+  width: 120px;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+textarea, input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button {
+  background: #43a047;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #388e3c;
+}
+
+.result-box {
+  margin-top: 1rem;
+  background: #e8f5e9;
+  padding: 0.75rem;
+  border-radius: 8px;
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 0.98rem;
+  white-space: pre-line;
+}
+
+.datetime {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+copyright {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #777;
+}

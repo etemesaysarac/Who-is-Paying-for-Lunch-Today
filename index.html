@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Who's Paying for Lunch?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-card">
+    <img src="assets/easyso_logo.png" alt="EASYSO Logo" class="logo" />
+    <h1>Who's Paying for Lunch Today?</h1>
+
+    <textarea id="namesInput" placeholder="Enter names, separated by commas..."></textarea>
+    <input type="number" id="totalAmount" placeholder="Enter total amount (₺)" min="1" />
+    <input type="number" id="payeeCount" placeholder="Number of payers" min="1" />
+
+    <button onclick="decideLunch()">Decide!</button>
+    <div id="result" class="result-box"></div>
+    <div id="datetime" class="datetime"></div>
+    <div class="copyright">© 2025 EASYSO</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
